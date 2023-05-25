@@ -1,3 +1,7 @@
 body{
     margin: 0px;
+    background-color: #FFFFFF;;
+}
+.wrapper{
+   margin: auto 5%;
 }

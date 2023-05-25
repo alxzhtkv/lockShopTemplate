@@ -1,0 +1,101 @@
+.first-block{
+    background: rgba(0, 0, 0, 0.02);
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 5% 5%;
+}
+.firstBlockLocketPicture{
+    margin: auto 7% auto 5%;
+}
+
+
+.first-block-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.first-block-info-wrapper>h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    color: #161C24;
+    margin: 8px 0;
+}
+
+
+.first-block-info-wrapper-text{
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454F5B;
+    margin-bottom: 0px;
+}
+.first-block-info-wrapper-price{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #454F5B;
+    margin-bottom:4px ;
+}
+
+.price-wrapper{
+    /* margin: 4px auto 16px auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 4px 0px 16px;
+}
+.price-wrapper>p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 24px;
+    line-height: 29px;
+    color: #161C24;
+
+    margin: 4px 0px 16px;
+}
+.price-wrapper>p#oldPrice{
+    margin-left: 12px;
+    color: #a4acb7;
+    text-decoration: line-through ;
+}
+
+.price-wrapper>p:after { 
+    content:"\20BD"; 
+}
+
+.button-wrapper{
+    display: flex;
+    
+}
+
+.button-style {
+    width: 220px;
+    height: 50px;
+    background-color: #4295E4;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+/* .firstBlockLocketPicture{
+    background-image: url("../images/firstBlockLocket.png");
+    width: 991px;
+
+} */
