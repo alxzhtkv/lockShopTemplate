@@ -2,9 +2,11 @@ body{
     margin: 0px;
     background-color: #FFFFFF;;
 }
+
 .wrapper{
    margin: auto 5%;
 }
+
 h1{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -14,6 +16,7 @@ h1{
     color: #161C24;
     margin: 0px;
 }
+
 p{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;

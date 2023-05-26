@@ -1,18 +1,19 @@
 .fourth-block{
-    display: flex; 
-   
+    display: flex;  
     flex-direction: column;
     justify-content: center;
-
     margin-bottom: 100px;
 }
+
 .fourth-block-header{
     display: flex; 
     justify-content: space-between;
 }
+
 .fourth-block-header>h1{
     margin-bottom: 64px;
 }
+
 .fourth-block-info{
     display: flex; 
     justify-content: space-between;
@@ -21,29 +22,28 @@
 .fourth-block-info-item{
     display: flex; 
     flex-direction: column;
-    justify-content: space-between;
     background: rgba(0, 0, 0, 0.02);
     border: 2px solid rgba(0, 0, 0, 0.02);
-
 }
+
 .fourth-block-info-item>img{
     width: 300px;
     padding: 40px 10px 15px;
 }
+
 .info{
-    background: #FFF;
-    
+    background: #FFF; 
 }
+
 .info>p{
     width: 80%;
-    margin: 12px 10px;
-    
+    margin: 12px 10px;   
 }
+
 .info-price-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -58,9 +58,11 @@
     color: #a4acb7;
     text-decoration: line-through ;
 }
+
 .info-price-wrapper>p{ 
     margin: 0px;
 }
+
 .info-price-wrapper>p:after { 
     content:"\20BD"; 
 }
