@@ -5,3 +5,11 @@ body{
 .wrapper{
    margin: auto 5%;
 }
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #161C24;
+}

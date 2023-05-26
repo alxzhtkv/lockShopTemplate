@@ -97,6 +97,7 @@
 .statistic-tape{
     background: #F2F8FF;
     padding: 2% 20%;
+    margin-bottom: 93px;
 }
 
 .statistic-tape-item-wpapper{
@@ -113,12 +114,6 @@
 }
 
 .statistic-tape-item>h1{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-    color: #161C24;
     padding: 8px;
     margin: 0%;
 }

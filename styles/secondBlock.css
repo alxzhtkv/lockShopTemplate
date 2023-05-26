@@ -1,0 +1,36 @@
+.second-block{
+    display: flex; 
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-block>h1{
+    margin: 0 0 3% 0;
+}
+
+.second-block-info{
+    display: flex; 
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.second-block-info-item{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-block-info-item>p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #454F5B;
+    width: 70%;
+}
+
+.second-block-info-item>img{
+    width: 80px;
+}
