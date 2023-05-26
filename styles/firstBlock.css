@@ -48,11 +48,10 @@
 }
 
 .price-wrapper{
-    /* margin: 4px auto 16px auto; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 4px 0px 16px;
+   
 }
 .price-wrapper>p{
     
@@ -93,7 +92,45 @@
     text-align: center;
     border: none;
     cursor: pointer;
-  }
+}
+
+.statistic-tape{
+    background: #F2F8FF;
+    padding: 2% 20%;
+}
+
+.statistic-tape-item-wpapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistic-tape-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistic-tape-item>h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #161C24;
+    padding: 8px;
+    margin: 0%;
+}
+.statistic-tape-item>p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #454F5B;
+    margin-bottom: 0px;
+}
 /* .firstBlockLocketPicture{
     background-image: url("../images/firstBlockLocket.png");
     width: 991px;
