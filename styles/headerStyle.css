@@ -1,15 +1,12 @@
 .discount-menu{
     background: #454F5B; 
+    display: flex;
+    justify-content: center;
 }
-.navigation-menu{
-    background: #FFFFFF;
-    box-shadow: inset 0px -1px 0px #C4CDD5;
-}
+
 .discount-menu-info{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: auto 5% auto 30%;
 }
 
 .discount-menu-info>p{
@@ -20,8 +17,11 @@
     line-height: 26px;
     letter-spacing: 0.12em;
     color: #FFFFFF;
+   
+
 }
 .discount-menu-info>a{
+    margin: 16px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -32,12 +32,20 @@
     color: #FFFFFF;
 }
 
+.navigation-menu{
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #C4CDD5;
+   
+    
+}
+
 .navigation-menu-info{
  
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: auto 5% auto 8%;
+    margin: auto 5%;
+  
 }
 
 .logo{
@@ -46,17 +54,20 @@
 }
 .phone{
     width: 20px;
-    margin:  auto 10px auto auto;
+    margin:  auto 10% auto auto;
 }
 .like{
     width: 20px;
-    margin:  auto 35px auto auto;
+    margin: auto 10% auto auto;
 }
 .cart{
     width: 40px;
 }
 .number{
-    margin: auto 35px auto auto;
+    display: inline-block;
+    white-space: nowrap;
+    margin: auto 10% auto auto;
+    
 }
 
 .left-navigation-menu-info{
@@ -92,5 +103,81 @@ ul li:hover > .dropdown {
     font-size: 16px;
     line-height: 21px;  
 }
+
+.burger-menu{
+    display: none;
+    width: 24px;
+    height: 40px;
+}
+.line{
+    height: 2px;
+    width: auto;
+    background-color: #161C24;
+}
+
+@media (max-width: 1200px) {
+    .discount-menu-info>p{
+        margin: 16px;
+    }
+}
+
+@media(max-width: 1128px){
+    .navigation-menu-info {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo {
+        width: 70px;
+        margin: 0px;
+    }
+    .discount-menu-info>p,.discount-menu-info>a {
+       font-size: 12px;
+    }
+    .left-navigation-menu-info>a {
+        font-size: 15px;
+    }
+
+    p.number {
+        font-size: 10px;
+    }
+ 
+
+
+}
+
+@media (max-width: 600px) {
+   
+    .discount-menu-info>p {
+        font-size: 10px;
+        margin: 0px;
+    }
+    .discount-menu-info>a{
+        display: none;
+      
+    }
+
+    .left-navigation-menu-info,.number,.phone {
+        display: none;
+    }
+    .navigation-menu-info {
+        flex-direction: row;
+    }
+
+   
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+    .first-block-info-wrapper-text{
+        display: none;
+    }
+    
+   
+
+
+}
+
 
 

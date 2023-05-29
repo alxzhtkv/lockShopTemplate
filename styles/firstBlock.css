@@ -1,7 +1,7 @@
 .first-block{
     background: rgba(0, 0, 0, 0.02);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 5% 5%;
 }
 .firstBlockLocketPicture{
@@ -93,8 +93,11 @@
 }
 
 .statistic-tape{
-    background: #F2F8FF;
-    padding: 2% 20%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(242, 248, 255);
+    padding: 2% 15%;
+    column-gap: 10px;
     margin-bottom: 93px;
 }
 
@@ -103,6 +106,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .statistic-tape-item{
@@ -125,4 +130,63 @@
     line-height: 26px;
     color: #454F5B;
     margin-bottom: 0px;
+}
+
+@media(max-width: 1128px){
+    .first-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstBlockLocketPicture{
+        margin: 0;
+    }
+    .statistic-tape-item>h1 {
+        font-size: 25px;
+
+    }
+    .statistic-tape-item>p{
+        text-align: center;
+        font-size: 15px;
+    }    
+}
+
+@media(max-width:600px){
+    .button-style {
+        min-width: 100%;
+       
+    }
+
+    .price-wrapper>p#oldPrice {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .statistic-tape {
+      
+        flex-wrap: wrap;
+    }
+    
+    .statistic-tape-item>p {
+        margin: 0px;
+    }
+    .statistic-tape-item{
+        min-width: 153px;
+    }
+    .second-block-info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+    .firstBlockLocketPicture{
+        width: 400px;
+        height: 400px;
+    }
+    .first-block-info-wrapper>h1 {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+    .button-style {
+        min-width: 100%;
+    }
 }

@@ -12,6 +12,7 @@
 .second-block-info{
     display: flex; 
     align-items: center;
+    flex: 1;
 }
 
 .second-block-info-item{
@@ -34,4 +35,12 @@
 
 .second-block-info-item>img{
     width: 80px;
+}
+
+
+@media(max-width: 1128px){
+    
+    .second-block-info-item>p {
+        font-size:15px
+    }
 }
